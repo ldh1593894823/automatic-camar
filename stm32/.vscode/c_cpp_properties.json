@@ -1,0 +1,29 @@
+{
+    "configurations": [
+        {
+            "name": "Auto_Yuntai",
+            "includePath": [
+                "Core/Inc",
+                "Drivers/STM32F4xx_HAL_Driver/Inc",
+                "Drivers/STM32F4xx_HAL_Driver/Inc/Legacy",
+                "Drivers/CMSIS/Device/ST/STM32F4xx/Include",
+                "Drivers/CMSIS/Include",
+                "RTOS",
+                "driver",
+                "user_code",
+                "USB_DEVICE/App",
+                "USB_DEVICE/Target",
+                "Middlewares/ST/STM32_USB_Device_Library/Core/Inc",
+                "Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc"
+            ],
+            "defines": [
+                "__STATIC_INLINE=inline",
+                "USE_HAL_DRIVER",
+                "STM32F411xE"
+            ],
+            "cStandard": "c11",
+            "cppStandard": "c++20"
+        }
+    ],
+    "version": 4
+}
